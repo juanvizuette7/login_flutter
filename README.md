@@ -1,16 +1,57 @@
-# login
+# 📂 SafeDocs – Gestión Segura de Documentos con Flutter + Supabase
 
-A new Flutter project.
+SafeDocs es una aplicación multiplataforma desarrollada en **Flutter** que permite a los usuarios **subir, almacenar y consultar documentos (PDF, Word, Excel, TXT)** en la nube de forma **segura y accesible** usando **Supabase**.
 
-## Getting Started
+Este proyecto fue desarrollado como caso de estudio para la **Universidad Cooperativa de Colombia (UCC)**, demostrando el uso práctico de **Flutter + Supabase** en la construcción de aplicaciones innovadoras.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Características
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔑 **Autenticación de usuarios** (registro e inicio de sesión con Supabase Auth).
+- 📤 **Subida de documentos** a Supabase Storage (`safe-docs`).
+- 📝 **Formulario de metadatos** al subir: título y categoría (Académico, Legal, Financiero, Personal, Otro).
+- 📂 **Organización de archivos** por usuario autenticado.
+- 🔍 **Filtro por categorías** para encontrar documentos fácilmente.
+- 📑 **Vista de documentos con íconos** según el tipo de archivo (PDF, Word, Excel, TXT).
+- 🌐 **Multiplataforma**: funciona en **Web, Android y Windows**.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Tecnologías Usadas
+
+- **Flutter 3.x**
+- **Dart**
+- **Supabase (Auth + Database + Storage)**
+- **flutter_dotenv** para manejar credenciales seguras
+- **Material 3** para diseño moderno
+
+---
+
+## 📲 Caso de Estudio
+
+### 📝 Problema
+En la vida académica y profesional, los estudiantes y docentes deben **gestionar múltiples documentos** (proyectos, evidencias, certificados, reportes legales, balances financieros, etc.).  
+Estos archivos suelen perderse, estar dispersos en correos o no tener un respaldo confiable.
+
+### 💡 Solución
+**SafeDocs** proporciona un repositorio personal en la nube:  
+- Cada usuario se registra e inicia sesión.  
+- Puede subir cualquier documento con un título y categoría.  
+- Los archivos quedan respaldados en Supabase Storage.  
+- Se pueden consultar y descargar en cualquier momento.  
+
+### 🎯 Impacto
+- ✅ Seguridad y respaldo de documentos.  
+- ✅ Acceso inmediato desde cualquier dispositivo.  
+- ✅ Organización por categorías.  
+- ✅ Escalable a otros usos (académicos, legales, financieros).  
+
+---
+
+## ⚙️ Instalación y Uso
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/juanvizuette7/login_flutter.git
+cd login_flutter
