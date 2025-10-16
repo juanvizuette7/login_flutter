@@ -30,7 +30,7 @@ class SafeDocsApp extends StatelessWidget {
         useMaterial3: true,
         colorSchemeSeed: Colors.deepOrange,
       ),
-      // 👇 Aquí está el cambio importante: definimos la pantalla inicial
+
       home: user == null ? const LoginPage() : const HomePage(),
     );
   }
